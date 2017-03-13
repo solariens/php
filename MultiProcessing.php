@@ -2,7 +2,6 @@
 
 /**
  * 通用多进程框架
- * @author liuheng02
  * @since 2017-03-13
  */
 
@@ -209,8 +208,8 @@ class MultiProcessing {
 }
 
 //使用方法如下
-// $obj = new Videomanager_Util_MultiProcessing();
-// $obj->setTypeAndLoc('file', '/home/work/normandy/app/videomanager/script/v2');
+// $obj = new MultiProcessing();
+// $obj->setTypeAndLoc('file', '/home/script/v2');
 // $obj->setWorkerProcess(8);
 // $obj->setDataHandler($strCallBack);
 // $obj->execute();
