@@ -1,6 +1,6 @@
 # php
-## 通用多进程类使用方法：    
-···php    
+### 通用多进程类使用方法：    
+```php    
 <?php
 function echoData($strLoc) {
   echo $strLoc;
